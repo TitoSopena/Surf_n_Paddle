@@ -217,7 +217,6 @@ aside li {
   display: inline-block; }
 
 .author {
-  /*display: inline-block;*/
   padding-left: 104px;
   display: inline-block; }
 
@@ -294,6 +293,6 @@ footer {
     font-size: 10em; }
 
   h1 {
-    font-size: 1.25em; } }
+    font-size: 1em; } }
 
 /*# sourceMappingURL=style.css.map */
