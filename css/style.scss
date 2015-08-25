@@ -325,6 +325,7 @@ hr {
 		background-image: url(../img/surfer.jpg);
 			display: inline-block;
 			background-repeat: no-repeat;
+
 		
 	}
 	.p2 {
@@ -421,17 +422,55 @@ hr {
 		margin-bottom: 25px;
 	}
 
+	.p1 {
+		background-image: url(../img/surfer.jpg);
+	
+		  	background-position: center bottom;
+		    background-repeat: no-repeat;
+		    background-size: cover;
+		    width: 100%;
+		
+		
+	}
+	.p2 {
+		background-image: url(../img/beer.jpg);
+		
+			background-repeat: no-repeat;
+			background-position: center bottom;
+		    background-size: cover;
+		    width: 100%;
+		    
+	}
+	.p3 {
+		background-image: url(../img/zack.jpg);
+			
+			background-repeat: no-repeat;
+			background-position: center bottom;
+		    background-size: cover;
+		    width: 100%;
+		
+	}
 
+	.p4 {
+		background-image: url(../img/booze.jpg);
+			
+			background-repeat: no-repeat;
+			background-position: center bottom;
+		    background-size: cover;
+		    width: 100%;
+		   
+
+	}	
 
 }
 @media screen and (min-width: 700px) {
 
-	.picture-container {
-		width: 50%;
-		height: 200px;
-		float: left;
-	}
 
+	.p1,.p2,.p3,.p4 {
+     width: 50%;
+   	 height: 277px;
+    
+	}
 }
 
 @media screen and (min-width:1000px){
@@ -533,45 +572,38 @@ hr {
 		padding: 130px;
 		color: white;
 	}
+
 	.p1 {
 		background-image: url(../img/surfer.jpg);
 			width: 25%;
-			height: 325px;
-			display: inline-block;
-			background-repeat: no-repeat;
+			height: 283px;
+		
 
 		
 	}
 	.p2 {
 		background-image: url(../img/beer.jpg);
-				width: 25%;
-				height: 325px;
-			display: inline-block;
-			background-repeat: no-repeat;
+			width: 25%;
+			height: 283px;
+			
 	}
 	.p3 {
 		background-image: url(../img/zack.jpg);
 			width: 25%;
-			height: 325px;
-			display: inline-block;
-			background-repeat: no-repeat;
+			height: 283px;
+	
 	}
 
 	.p4 {
 		background-image: url(../img/booze.jpg);
 			width: 25%;
-			height: 325px;
-			display: inline-block;
-			background-repeat: no-repeat;
+			height: 283px;
+		
+	}
+	.p1, .p2, .p3, .p4 {
+		float: left;
 	}	
 	}
-	.p1 .p2 .p3 .p4 {
-		
-		height: 300px;
-
-	}
-
-
 }
 
 
