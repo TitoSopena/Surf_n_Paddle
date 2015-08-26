@@ -421,7 +421,9 @@ hr {
 
   .picture-container {
     width: 100%;
-    margin-top: 10px; }
+    margin-top: 10px;
+    float: none;
+    margin-left: 0; }
     .picture-container p {
       text-align: center;
       font-size: 1em;
