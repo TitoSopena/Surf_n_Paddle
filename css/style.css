@@ -329,12 +329,39 @@ hr {
 
   .author {
     margin-left: 0;
-    margin-bottom: 25px; } }
+    margin-bottom: 25px; }
+
+  .p1 {
+    background-image: url(../img/surfer.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; }
+
+  .p2 {
+    background-image: url(../img/beer.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    width: 100%; }
+
+  .p3 {
+    background-image: url(../img/zack.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    width: 100%; }
+
+  .p4 {
+    background-image: url(../img/booze.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    width: 100%; } }
 @media screen and (min-width: 700px) {
-  .picture-container {
+  .p1, .p2, .p3, .p4 {
     width: 50%;
-    height: 200px;
-    float: left; } }
+    height: 277px; } }
 @media screen and (min-width: 1000px) {
   article {
     margin-left: 5%; }
@@ -394,7 +421,9 @@ hr {
 
   .picture-container {
     width: 100%;
-    margin-top: 10px; }
+    margin-top: 10px;
+    float: none;
+    margin-left: 0; }
     .picture-container p {
       text-align: center;
       font-size: 1em;
@@ -403,29 +432,20 @@ hr {
     .picture-container .p1 {
       background-image: url(../img/surfer.jpg);
       width: 25%;
-      height: 325px;
-      display: inline-block;
-      background-repeat: no-repeat; }
+      height: 283px; }
     .picture-container .p2 {
       background-image: url(../img/beer.jpg);
       width: 25%;
-      height: 325px;
-      display: inline-block;
-      background-repeat: no-repeat; }
+      height: 283px; }
     .picture-container .p3 {
       background-image: url(../img/zack.jpg);
       width: 25%;
-      height: 325px;
-      display: inline-block;
-      background-repeat: no-repeat; }
+      height: 283px; }
     .picture-container .p4 {
       background-image: url(../img/booze.jpg);
       width: 25%;
-      height: 325px;
-      display: inline-block;
-      background-repeat: no-repeat; }
-
-  .p1 .p2 .p3 .p4 {
-    height: 300px; } }
+      height: 283px; }
+    .picture-container .p1, .picture-container .p2, .picture-container .p3, .picture-container .p4 {
+      float: left; } }
 
 /*# sourceMappingURL=style.css.map */
